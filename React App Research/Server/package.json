@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+
+    "start": "nodemon Server",
+    "test": "jest --forceExit --detectOpenHandles "
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.4",
+    "nanoid": "^3.3.4",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^28.1.0",
+    "superagent": "^7.1.6",
+    "supertest": "^6.2.3"
+  }
+}

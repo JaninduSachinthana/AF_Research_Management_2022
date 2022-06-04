@@ -1,0 +1,146 @@
+.form-container-group {
+    width: 450px;
+    background-color: black;
+    border: 3px solid white;
+    margin-top: 120px;
+    margin-left: 600px;
+    /* margin: auto; */
+    border-radius: 9px;
+    box-shadow: 0 0 10px 0 black, 2px 2px 2px 0 #1b1b1b;
+    padding: 10px;
+    color: white;
+}
+
+.Groupreg-form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+}
+
+.form-field-group {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;  
+    font-family: "Roboto", sans-serif;
+    background: white;
+    color: black;
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+input {
+    color: black;
+   
+}
+
+input::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.btngroup-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cancel-group {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid rgb(173, 25, 25);
+    color: white;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-group {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.title-group {
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+
+
+.lbl-group{
+    font-size: 14px;
+    font-family:'poppin';
+}
+
+
+
+.table-ab{ 
+    border: 3px solid white;
+    border-radius:8px;
+    padding: 0.5rem;
+    font-size: 20px; 
+    margin-left: 350px;
+    margin-top: 60px; 
+    width: auto;
+   background-color: #1b1b1b;
+}
+
+
+.table-ab th{
+    color: white;
+    background-color: #454546;
+}
+
+.table-ab td{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
